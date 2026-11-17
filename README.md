@@ -1,12 +1,12 @@
-# 🎬 YouTube Downloader (v1.6.0b)
+#  YouTube Downloader (v1.6.0b)
 
 Egy egyszerű és gyors YouTube videó- és hangletöltő alkalmazás.
 
-> ⚠️ **Megjegyzés:** Ez jelenleg egy **béta verzió (`1.6.0b`)**. Ha hibát találsz, kérlek jelezd az *Issues* fülön!
+>  **Megjegyzés:** Ez jelenleg egy **béta verzió (`1.6.0b`)**. Ha hibát találsz, kérlek jelezd az *Issues* fülön!
 
 ---
 
-## ✨ Funkciók
+##  Funkciók
 
 - **Videó letöltés:** Különböző felbontások támogatása (pl. 720p, 1080p, 4K)
 - **Hang kinyerése:** Videók mentése csak hang formátumban (pl. MP3 / M4A)
@@ -16,7 +16,7 @@ Egy egyszerű és gyors YouTube videó- és hangletöltő alkalmazás.
 
 ---
 
-## 🛠️ Követelmények és Telepítés
+##  Követelmények és Telepítés
 
 ### 1. Előfeltételek
 * [Pl. Python 3.10 vagy újabb]
