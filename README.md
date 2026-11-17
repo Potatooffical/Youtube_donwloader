@@ -10,8 +10,8 @@ Egy egyszerű és gyors YouTube videó- és hangletöltő alkalmazás.
 
 - **Videó letöltés:** Különböző felbontások támogatása (pl. 720p, 1080p, 4K)
 - **Hang kinyerése:** Videók mentése csak hang formátumban (pl. MP3 / M4A)
-- **Lejátszási listák:** [Töröld ezt a sort, ha még nem támogatja]
-- **Felhasználóbarát felület:** [Pl. Modern sötét módú GUI / Egyszerű parancssoros kezelés]
+- **Lejátszási listák:** 
+- **Felhasználóbarát felület:** 
 - **Valós idejű folyamatjelző:** A letöltés állásának nyomon követése
 
 ---
@@ -19,8 +19,9 @@ Egy egyszerű és gyors YouTube videó- és hangletöltő alkalmazás.
 ##  Követelmények és Telepítés
 
 ### 1. Előfeltételek
-* [Pl. Python 3.10 vagy újabb]
-* [Pl. FFmpeg (a hang és kép összefűzéséhez)]
+1. **[Deno](https://deno.com/)** – Futtatókörnyezet (és JS runtime a `yt-dlp` számára)
+2. **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** – A letöltési folyamatok kezeléséhez
+3. **[FFmpeg](https://ffmpeg.org/)** – A videó- és hangsávok összefűzéséhez és konvertálásához
 
 ### 2. Repó klónozása
 ```bash
