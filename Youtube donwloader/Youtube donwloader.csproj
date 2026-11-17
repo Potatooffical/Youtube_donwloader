@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Youtube_donwloader</RootNamespace>
+    <AssemblyName>Youtube_donwloader</AssemblyName>
+    <ApplicationIcon>InstalledApp.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="appicon.ico" />
+    <None Remove="appicon.jpg" />
+    <None Remove="appicon.png" />
+    <None Remove="icon.png" />
+    <None Remove="InstalledApp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="appicon.png" />
+    <Resource Include="YoutubeDownloader.ico" />
+    <Resource Include="InstalledApp.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
