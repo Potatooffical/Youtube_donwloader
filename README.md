@@ -1,29 +1,36 @@
-#  YouTube Downloader (v1.6.0b)
+# YouTube Downloader (v1.6.0b)
 
-Egy egyszerű és gyors YouTube videó- és hangletöltő alkalmazás.
+Egy egyszerű, gyors és modern YouTube videó- és hangletöltő alkalmazás.
 
->  **Megjegyzés:** Ez jelenleg egy **béta verzió (`1.6.0b`)**. Ha hibát találsz, kérlek jelezd az *Issues* fülön!
+> **Megjegyzés:** Ez jelenleg egy **béta verzió (`v1.6.0b`)**. Ha hibát találsz vagy javaslatod van, kérlek jelezd az *Issues* fülön!
 
----
-
-##  Funkciók
-
-- **Videó letöltés:** Különböző felbontások támogatása (pl. 720p, 1080p, 4K)
-- **Hang kinyerése:** Videók mentése csak hang formátumban (pl. MP3 / M4A)
-- **Lejátszási listák:** 
-- **Felhasználóbarát felület:** 
-- **Valós idejű folyamatjelző:** A letöltés állásának nyomon követése
+> **Fontos figyelmeztetés (Spotify és DRM):** Az alkalmazás **nem támogatja a közvetlen Spotify zeneletöltést**. A Spotify a zenei tartalmait digitális másolásvédelemmel (DRM) látja el, amelyet sem a `yt-dlp`, sem az `FFmpeg` nem képes és nem is hivatott megkerülni.
 
 ---
 
-##  Követelmények és Telepítés
+## Funkciók
+
+- **Videó letöltése:** Különböző felbontások támogatása (pl. 720p, 1080p, 4K).
+- **Hang kinyerése:** Videók mentése csak hang formátumban (pl. MP3, M4A).
+- **Lejátszási listák kezelése:** Teljes lejátszási listák egyidejű vagy válogatott letöltése.
+- **Felhasználóbarát felület:** Átlátható, könnyen kezelhető megjelenés a gyors használathoz.
+- **Valós idejű folyamatjelző:** A letöltés és a konvertálás állásának folyamatos nyomon követése.
+
+---
+
+## Követelmények és Telepítés
 
 ### 1. Előfeltételek
-1. **[Deno](https://deno.com/)** – Futtatókörnyezet (és JS runtime a `yt-dlp` számára)
-2. **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** – A letöltési folyamatok kezeléséhez
-3. **[FFmpeg](https://ffmpeg.org/)** – A videó- és hangsávok összefűzéséhez és konvertálásához
+A futtatáshoz az alábbi eszközök telepítése szükséges:
+1. **[Deno](https://deno.com)** – JavaScript/TypeScript futtatókörnyezet (valamint JS runtime a `yt-dlp` számára)
+2. **[yt-dlp](https://github.com)** – A videó- és hangfolyamok letöltéséhez
+3. **[FFmpeg](https://ffmpeg.org)** – A videó- és hangsávok összefűzéséhez és konvertálásához
 
-### 2. Repó klónozása
+### 2. Repozitórium klónozása
+Nyiss meg egy terminált, és futtasd az alábbi parancsokat:
+
 ```bash
-git clone [https://github.com/Potatooffical/Youtube_donwloader.git](https://github.com/Potatooffical/Youtube_donwloader.git)
+git clone https://github.com
 cd Youtube_donwloader
+```
+
