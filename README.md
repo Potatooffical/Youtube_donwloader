@@ -18,19 +18,11 @@ Egy egyszerű, gyors és modern YouTube videó- és hangletöltő alkalmazás.
 
 ---
 
-## Követelmények és Telepítés
+## Telepítés
 
-### 1. Előfeltételek
-A futtatáshoz az alábbi eszközök telepítése szükséges:
-1. **[Deno](https://deno.com)** – JavaScript/TypeScript futtatókörnyezet (valamint JS runtime a `yt-dlp` számára)
-2. **[yt-dlp](https://github.com)** – A videó- és hangfolyamok letöltéséhez
-3. **[FFmpeg](https://ffmpeg.org)** – A videó- és hangsávok összefűzéséhez és konvertálásához
-
-### 2. Repozitórium klónozása
-Nyiss meg egy terminált, és futtasd az alábbi parancsokat:
+Nyiss meg egy terminált, és futtasd az alábbi parancsokat a repozitórium klónozásához:
 
 ```bash
 git clone https://github.com
 cd Youtube_donwloader
 ```
-
